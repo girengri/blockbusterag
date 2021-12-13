@@ -1,0 +1,32 @@
+.movieCard {
+  list-style: none; /*Le quita el punto que tiene por defecto las listas*/
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.movieCard:hover {
+  opacity: 0.8;
+}
+
+.movieImage {
+  border-radius: 10px;
+  background-color: azure;
+}
+.title{
+  text-decoration: none;
+}
+
+@media (max-width: 560px) {
+  .movieImage {
+    width: 90%;
+    height: auto;
+  }
+}
+
+.votacion{
+  border-radius: 34%;
+  background-color: rgba(25, 14, 31, 0.486);
+  width: 30%;
+  position: relative;
+  top: -338px;
+}
